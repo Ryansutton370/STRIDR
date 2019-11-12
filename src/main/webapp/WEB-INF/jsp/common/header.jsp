@@ -19,4 +19,18 @@
 </style>
 
 
+
 </head>
+
+
+<body>
+<!-- Hero banner at the top -->
+	<section class="hero">
+		<div class="hero-body">
+			<div class="container">
+				<figure class="image center">
+					<img src="img/logo.png" style="max-width: 256px;">
+				</figure>
+			</div>
+		</div>
+	</section>
