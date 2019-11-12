@@ -1,0 +1,1 @@
+COPY journey (day, distance, story) FROM '/Users/ryansutton/workspace/STRIDR/STRIDR/database/LOTR Travel.csv' DELIMITER '|';

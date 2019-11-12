@@ -1,13 +1,12 @@
-BEGIN TRANSACTION
+BEGIN TRANSACTION;
 
-DROP TABLE IF EXISTS frodo_journey;
-DROP SEQUENCE IF EXISTS seq_journey_id;
+DROP TABLE IF EXISTS journey;
 
-CREATE SEQUENCE seq_journey_id;
 
-CREATE TABLE frodo_journey
+
+CREATE TABLE journey
 (
-    id INTEGER PRIMARY KEY DEFAULT NEXTVAL('seq_journey_id'),
+    id serial,
     day INT NOT NULL,
     distance INT NOT NULL,
     story VARCHAR(500) NOT NULL
