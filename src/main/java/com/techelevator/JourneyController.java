@@ -15,8 +15,8 @@ public class JourneyController {
 	@Autowired
 	JourneyDAO dao;
 	
-	@RequestMapping("/greeting")
-	public String displayGreeting() {
+	@RequestMapping("/")
+	public String displayHome() {
 		
 		return "greeting";
 	}
