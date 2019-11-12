@@ -2,18 +2,20 @@
 
 <c:import url="/WEB-INF/jsp/common/header.jsp" />
 
-  <body>
-  <section class="section">
-    <div class="container">
-      <h1 class="title">
-        STRIDR
-      </h1>
-      <p class="subtitle">
-        Journey along with <strong>Sam and Frodo</strong>!
-      </p>
-    </div>
-  </section>
-  </body>
+<body>
+	<section class="hero is-fullheight has-background-light">
+		
+            <div class="hero-body">
+                <div class="container">
+                    <figure class="image center">
+                        <img src="img/logo.png" style="max-width: 512px;">
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+
+</body>
 </html>
 
 <!-- TODO: Homepage - Explain what STRIDR is, upcomming features
