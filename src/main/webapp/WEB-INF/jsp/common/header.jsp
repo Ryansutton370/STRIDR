@@ -24,12 +24,15 @@
 
 
 <body>
-<!-- Hero banner at the top -->
+	<!-- Hero banner at the top -->
 	<section class="hero">
 		<div class="hero-body">
 			<div class="container">
 				<figure class="image center">
-					<img src="img/logo.png" style="max-width: 256px;">
+
+					<c:url var="home" value="/" />
+					<a href="${home}">
+					<img src="img/logo.png" style="max-width: 256px;"></a>
 				</figure>
 			</div>
 		</div>

@@ -57,7 +57,8 @@
 									<h1 class="title is-size-4">Upcoming Features:</h1>
 	
 									<li class="subtitle is-size-5">User accounts</li>
-										<li class="subtitle is-size-5">Step-tracker integration</li></span>
+										<li class="subtitle is-size-5">Step-tracker integration</li>
+										<li class="subtitle is-size-5">Compare by Days Travelled</li></span>
 										
 								</div>
 							</div>

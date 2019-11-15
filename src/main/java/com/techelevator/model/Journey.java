@@ -6,6 +6,9 @@ public class Journey {
 	private int distance;
 	private String story;
 	
+	//By default, STRIDR will compare user journey to Frodo's by distance.
+	private boolean compareByDistance = true;
+	
 	public Long getId() {
 		return id;
 	}

@@ -24,11 +24,11 @@ public class JDBCJourneyDAO implements JourneyDAO{
 
 	@Override
 	public Journey getJourneyFromDistance(int distance) {
-		String sql = "SELECT day, distance, story FROM journey WHERE distance <= ? ORDER BY distance DESC LIMIT 1";
+		String sql = "SELECT id, day, distance, story FROM journey WHERE distance <= ? ORDER BY distance DESC LIMIT 1";
 		SqlRowSet result = dao.queryForRowSet(sql, distance);
 		
 		Journey output = new Journey();
-		while(result.next()) {
+		if(result.next()) {
 			output = mapRowToJourney(result);
 		}
 		return output;
@@ -36,7 +36,7 @@ public class JDBCJourneyDAO implements JourneyDAO{
 
 	@Override
 	public Journey getJourneyFromDay(int day) {
-		String sql = "SELECT day, distance, story FROM journey WHERE day = ?";
+		String sql = "SELECT id, day, distance, story FROM journey WHERE day = ?";
 		SqlRowSet result = dao.queryForRowSet(sql, day);
 		
 		Journey output = new Journey();
