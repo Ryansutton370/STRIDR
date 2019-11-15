@@ -10,13 +10,14 @@
 		<Form method="GET" action="journeyresults">
 
 			<div class="is-size-4">
+			<!-- TODO: Max value for date = today, easier in JS -->
 				<label for="inputDate">When did your journey start?</label> <input
 					class="is-size-4" type="date" name="inputDate" />
 			</div>
 
 			<div class="is-size-4">
-				<label for="inputDistance">How far have you travelled?</label> <input
-					class="is-size-4" type="number" min="1" max="1800"
+				<label for="inputDistance">How far have you traveled?</label> <input
+					class="is-size-4" type="number" min="18" max="1800"
 					name="inputDistance" /> (miles)
 			</div>
 

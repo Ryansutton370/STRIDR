@@ -37,7 +37,7 @@ public class JourneyController {
 	//This method leads to the form
 	@RequestMapping(path = "/startjourney", method=RequestMethod.GET)
 	public String displayJourneyForm() {
-		
+	//TODO: Validate input	
 		return "beginjourney";
 	}
 	

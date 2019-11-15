@@ -3,6 +3,8 @@ package com.techelevator.model;
 public class Journey {
 	private Long id;
 	private int day;
+	
+	//TODO: Validation for distance
 	private int distance;
 	private String story;
 	

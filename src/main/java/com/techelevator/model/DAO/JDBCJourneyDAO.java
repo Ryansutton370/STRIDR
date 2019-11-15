@@ -24,7 +24,7 @@ public class JDBCJourneyDAO implements JourneyDAO{
 
 	@Override
 	public Journey getJourneyFromDistance(int distance) {
-		String sql = "SELECT id, day, distance, story FROM journey WHERE distance <= ? ORDER BY distance DESC LIMIT 1";
+		String sql = "SELECT id, day, distance, story FROM journey WHERE distance >= ? ORDER BY distance ASC LIMIT 1";
 		SqlRowSet result = dao.queryForRowSet(sql, distance);
 		
 		Journey output = new Journey();
