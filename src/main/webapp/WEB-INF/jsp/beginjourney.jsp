@@ -1,4 +1,6 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
+
 <c:import url="/WEB-INF/jsp/common/header.jsp" />
 
 
@@ -17,7 +19,7 @@
 
 			<div class="is-size-4">
 				<label for="inputDistance">How far have you traveled?</label> <input
-					class="is-size-4" type="number" min="18" max="1800"
+					class="is-size-4" type="number" max="1800"
 					name="inputDistance" /> (miles)
 			</div>
 
