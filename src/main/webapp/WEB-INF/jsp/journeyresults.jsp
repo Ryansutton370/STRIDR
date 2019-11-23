@@ -32,7 +32,7 @@
 					<div class="column" id="story">
 						<div class="content">
 									<h1 class="title is-size-4">The Journey, Day
-										${journey.day}</h1>
+										${journey.day}:</h1>
 										<p class="subtitle is-size-5">
 									<span>${journey.story}</span>
 						</div>
